@@ -149,8 +149,8 @@ class Products {
     id = json['id'];
     name = json['name'];
     price = json['price'].toString();
-    offer = json['offer'];
-    status = json['status'];
+    offer = json['offer'].toString();
+    status = json['status'].toString();
     image = json['image'];
     serviceId = json['service_id'].toString();
     createdAt = json['created_at'];
